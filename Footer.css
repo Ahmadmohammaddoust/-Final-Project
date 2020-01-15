@@ -1,0 +1,188 @@
+
+
+@font-face{
+  font-family: MFT;
+  src: url(./DMSans-Bold.ttf);
+}
+body{
+  font-family: MFT;
+}
+
+.box-img{
+
+    width: 100%;
+    height: 400px;
+    background-image: url(./Web-2020.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 100px;
+
+}
+.box-txt{
+    width: 900px;
+    height: 200px;
+    color:  rgb(255, 176, 7);
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 15%;
+}
+.box-txt i{
+
+    padding: 15px 20px;
+    color:  rgb(1, 35, 87);
+    background-color:  rgb(255, 176, 7);
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.box-txt i:hover{
+  background-color: rgb(255, 136, 0);
+}
+
+
+.mail__box {
+   
+    background-color:rgb(209, 209, 209);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px 50px;
+ 
+  }
+  
+  input[type=text]{
+    width: 300px;
+    padding: 12px;
+    margin: 8px 5px;
+    display: inline;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
+  input[type=submit] {
+    background-color: rgb(255, 176, 7);
+    color: rgb(1, 35, 87);
+    font-family: MFT;
+    padding: 12px;
+    margin: 8px 5px;
+    display: inline;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgb(255, 136, 0);
+  }
+
+  .mail__box h1 {
+      color: rgb(255, 176, 7);
+      margin-right: 20px;
+      cursor: pointer;
+  }
+  .mail__box h1:hover{
+    color: rgb(255, 136, 0);
+  }
+
+  .contact__us{
+
+    width: 100%;
+    height: 350px;
+    background-color: rgb(1, 35, 87);
+  }
+  .icon{
+ 
+      float: right;
+      margin:30px 100px;
+  }
+  .icon h2{
+      color:  rgb(255, 176, 7);
+  }
+.fab{
+    padding:12px 15px;
+    font-size: 20px;
+    background-color: rgb(255, 176, 7);
+    margin-right:2px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    color: rgb(1, 35, 87);
+    cursor: pointer;
+}
+.icon i:hover{
+  transform: translateY(-8px);
+  transition: all 0.3s;
+  cursor: pointer;
+  color:rgb(223, 18, 59);
+
+}
+
+.box-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box-contact ul{
+
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.box-contact ul a{
+    color: white;
+    display: block;
+    padding: 5px ;
+    margin-left: 130px;
+    text-decoration: none;
+}
+.box-contact ul a:hover{
+    color: rgb(255, 176, 7);
+}
+.box-contact h2{
+
+  color: rgb(255, 176, 7);
+  margin-top: -40px;
+  margin-bottom: 20px;
+  margin-left: 130px;
+
+
+}
+
+.laptop__domax{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.laptop__domax h1:hover{
+  transform: translateY(-5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.laptop__domax i{
+  padding:17px 15px;
+  background-color: rgb(255, 176, 7);
+  font-size: 30px;
+  border-radius: 50%;
+  color: rgb(1, 35, 87);
+  margin-right:  10px;
+  margin-top: 30px;
+
+}
+
+.laptop__domax h1{
+  font-size: 30px;
+  color: rgb(255, 176, 7);
+}
+.laptop__domax p{
+  color: rgb(255, 176, 7);
+  margin-top: 70px;
+  margin-left: -120px;
+}

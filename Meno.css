@@ -1,0 +1,465 @@
+
+
+@font-face{
+    font-family: MFT;
+    src: url(./DMSans-Bold.ttf);
+}
+body{
+    font-family: MFT;
+}
+.nav__Cloud {
+  
+	text-align: center;
+}
+
+.nav__Cloud ul ul {
+	display:none;
+}
+
+.nav__Cloud ul li:hover > ul {
+	display: block;
+}
+
+.nav__Cloud ul {
+
+	padding-top: 10px;
+	padding-left:20px ;
+	list-style: none;
+	position: relative;
+	display:inline-table;	
+}
+
+.box-nav{
+	left:-20px;
+	top: 20px;
+}
+
+.nav__Cloud ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.nav__Cloud ul li {
+	float: left;
+	position: relative;
+}
+
+.nav__Cloud ul li:hover {
+	background: rgb(196, 39, 70);
+
+}
+
+.nav__Cloud ul li:hover a {
+	color: wheat;
+    transition: all 0.5s;
+
+}
+
+.nav__Cloud ul li a {
+	display: block;
+	padding: 14px 25px;
+	color: white;
+	text-decoration: none;
+
+}
+
+.nav__Cloud ul ul {
+	background: rgb(196, 39, 70);
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	margin-top: 3px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);	
+}
+
+.nav__Cloud ul ul li {
+	float: none;
+	position: relative;
+}
+
+.nav__Cloud ul ul li a {
+	padding: 15px 15px;
+	color: #fff;
+}	
+.nav__Cloud ul ul li a:hover {
+	background: #112f44;
+	border-radius: 4px;
+}
+		
+.nav__Cloud ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+.nav__Cloud h2{
+	color: rgb(196, 39, 70);
+	margin-top: -102px;
+	margin-bottom: 30px;
+	margin-left: -14px;
+}
+
+.nav__envelope {  
+	text-align: center;
+}
+
+.nav__envelope ul ul {
+	display:none;
+}
+
+.nav__envelope ul li:hover > ul {
+	display: block;	
+}
+
+.nav__envelope ul {
+	padding: 0 15px;
+	list-style: none;
+	position: relative;
+	display:inline-table;	
+}
+
+.box-nav{
+	left:-20px;
+	top: 20px;
+}
+.nav__envelope ul:after {
+	content: "";
+	clear: both;
+	display: block;
+	
+}
+
+.nav__envelope ul li {
+	float: left;
+	position: relative;
+
+}
+
+.nav__envelope ul li:hover {
+	background: gray;
+}
+
+.nav__envelope ul li:hover a {
+	color: wheat;
+	transition: all 0.5s;
+}
+
+.nav__envelope ul li a {
+	display: block;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;	
+}
+
+.nav__envelope ul ul {
+	background: gray;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	margin-left: 5px;
+	margin-top: 3px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.nav__envelope ul ul li {
+	float: none;
+	position: relative;
+}
+.nav__envelope ul ul li a {
+	padding: 15px 20px;
+	color: #fff;
+}	
+.nav__envelope ul ul li a:hover {
+	background: #112f44;
+	border-radius: 4px;
+}
+		
+.nav__envelope ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+.nav__envelope h2{
+	color: gray;
+	margin-top: -90px;
+	margin-bottom: 29px;
+	margin-left: -5px;
+}
+
+.nav__desktop {
+  
+	text-align: center;
+}
+
+.nav__desktop ul ul {
+	display:none;
+}
+
+.nav__desktop ul li:hover > ul {
+	display: block;	
+}
+
+.nav__desktop ul {
+
+	padding: 10px  30px;
+	list-style: none;
+	position: relative;
+	display:inline-table;	
+}
+
+.box-nav{
+	left:0px;
+	top: 0px;
+
+}
+.nav__desktop ul:after {
+	content: "";
+	clear: both;
+	display: block;
+	
+}
+
+.nav__desktop ul li {
+	float: left;
+	position: relative;
+
+}
+
+.nav__desktop ul li:hover {
+	background:  rgb(84, 124, 211);
+	border-radius: 4px;
+
+}
+
+.nav__desktop ul li:hover a {
+	color: wheat;
+	transition: all 0.5s;
+
+}
+
+.nav__desktop ul li a {
+	display: block;
+	padding: 14px 10px;
+	color: white;
+	text-decoration: none;	
+	border-radius: 4px;
+}
+
+.nav__desktop ul ul {
+	background:  rgb(84, 124, 211);
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	margin-left: -10px;
+	margin-top: 3px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.nav__desktop ul ul li {
+	float: none;
+
+	position: relative;
+}
+.nav__desktop ul ul li a {
+	padding: 14px 23px;
+	color: #fff;
+}	
+.nav__desktop ul ul li a:hover {
+	background: #112f44;
+}
+		
+.nav__desktop ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+
+.nav__desktop h2{
+	margin-top: -97px;
+	margin-bottom: 25px;
+	color:rgb(84, 124, 211);
+
+}
+
+
+.nav__hdd {
+  
+	text-align: center;
+}
+
+.nav__hdd ul ul {
+	display:none;
+}
+
+.nav__hdd ul li:hover > ul {
+	display: block;
+	
+}
+
+.nav__hdd ul {
+
+	padding: 0 40px;
+	list-style: none;
+	position: relative;
+	display:inline-table;	
+}
+
+.box-nav{
+	left:-20px;
+	top: 20px;
+
+}
+.nav__hdd ul:after {
+	content: "";
+	clear: both;
+	display: block;	
+}
+
+.nav__hdd ul li {
+	float: left;
+	position: relative;
+
+}
+
+.nav__hdd ul li:hover {
+	background:  rgb(88, 81, 189);
+	border-radius: 4px;
+
+}
+
+.nav__hdd ul li:hover a {
+	color: wheat;
+	transition: all 0.5s;
+}
+
+.nav__hdd ul li a {
+	display: block;
+	padding: 14px 30px;
+	color: white;
+	text-decoration: none;	
+
+}
+
+.nav__hdd ul ul {
+	background:  rgb(88, 81, 189);
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	margin-top: 3px;
+	margin-left: -20px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.nav__hdd ul ul li {
+	float: none;
+
+	position: relative;
+}
+.nav__hdd ul ul li a {
+	padding: 15px 15px;
+	color: #fff;
+}	
+.nav__hdd ul ul li a:hover {
+	background: #112f44;
+	border-radius: 4px;
+}
+		
+.nav__hdd ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+.nav__hdd h2{
+	margin-top: -87px;
+	margin-bottom: 25px;
+	color:rgb(84, 124, 211);
+}
+
+.icon-Cloud{
+
+font-size:60px;
+padding:12px;
+color: white;
+background-color: rgb(196, 39, 70);
+border-radius: 50%;
+-webkit-box-shadow: 0 10px 8px -4px #777;
+-moz-box-shadow: 0 10px 8px -4px #777;
+	 box-shadow: 0 10px 8px -4px #777;
+}
+.icon-Cloud:hover{
+	cursor: pointer;
+	transition: all 0.5s;
+	background-color: rgb(141, 6, 33);
+}
+
+.icon-envelope{
+	
+font-size:60px;
+padding-top:12px;
+padding-bottom:12px;
+padding-right: 18px;
+padding-left: 18px;
+color: white;
+background-color: gray;
+border-radius: 50%;
+-webkit-box-shadow: 0 10px 8px -4px #777;
+-moz-box-shadow: 0 10px 8px -4px #777;
+	 box-shadow: 0 10px 8px -4px #777;
+}
+.icon-envelope:hover{
+	cursor: pointer;
+	transition: all 0.5s;
+	background-color: rgb(100, 100, 100);
+}
+
+.icon-desktop{
+
+font-size:60px;
+padding:15px;
+color: white;
+background-color:  rgb(84, 124, 211);
+border-radius: 50%;
+-webkit-box-shadow: 0 10px 8px -4px #777;
+-moz-box-shadow: 0 10px 8px -4px #777;
+	 box-shadow: 0 10px 8px -4px #777;
+}
+.icon-desktop:hover{
+	cursor: pointer;
+	transition: all 0.5s;
+	background-color: rgb(43, 89, 189);
+}
+
+.icon-hdd{
+font-size:60px;
+padding:15px;
+color: white;
+background-color:  rgb(88, 81, 189);
+border-radius: 50%;
+-webkit-box-shadow: 0 10px 8px -4px #777;
+-moz-box-shadow: 0 10px 8px -4px #777;
+	 box-shadow: 0 10px 8px -4px #777;
+}
+.icon-hdd:hover{
+	cursor: pointer;
+	transition: all 0.5s;
+	background-color: rgb(53, 46, 146);
+}
+
+.icon-angle-right{
+    position: absolute;
+	font-size: 26px;
+	left: 180px;
+	top: 7px;
+	color: white;
+}
+
